@@ -9,5 +9,10 @@ class CicdDemoApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	@Test
+	void applicationContextTest() {
+		CicdDemoApplication.main(new String[] {});
+	}
 
 }
